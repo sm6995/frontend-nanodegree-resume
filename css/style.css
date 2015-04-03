@@ -119,6 +119,10 @@ a {
   background-color: #484848;
 }
 
+#myLink {
+  font-size: 13px;
+}
+
 .flex-box {
   display: -webkit-flex;
   display: flex;
@@ -147,7 +151,9 @@ ul {
 }
 
 img {
-  padding: 10px;
+  padding-left: 50px;
+  padding-top: 10px;
+  width: 500px;
 }
 
 /* Bar chart stuff */
@@ -205,6 +211,13 @@ span {
   height: 400px;
   width: 100%;
   padding-bottom: 5%;
+}
+
+#content {
+  background-color: aqua;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 750px) {
